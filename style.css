@@ -92,7 +92,6 @@ nav a {
 .icon-box {
     display: grid;
     grid-template-columns: auto auto auto;
-    align-items: center;
     text-align: center;
     margin-top: 25px;
     
@@ -103,6 +102,7 @@ nav a {
     color: #E0E0E0;
     font-size: 2.5rem;
     text-align: center;
+    transform: translate(1.3vw);
 }
 
 .icon p {
@@ -179,4 +179,18 @@ body {
 
 footer {
     text-align: center;
+}
+
+.email-form {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 100%;
+    
+}
+.email-form input {
+    width:80%;
+    margin-bottom: 10px;
+}
+.email-form textarea {
+    height: 20vh;
 }

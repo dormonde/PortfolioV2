@@ -12,6 +12,38 @@
 
 <body>
     <div class="container-fluid">
+       <!-- Modal Starts Here -->
+       
+       
+       <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <form action="https://formspree.io/davidormonde.cos@gmail.com" method="POST">
+                   <div class="modal-header">
+                       <h5 class="modal-title" id="emailModalLabel">Email</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                       </button>
+                   </div>
+                   <div class="modal-body email-form">
+                       
+                       <input class="email-submit" type="email" name="email" placeholder="Your Email Here">
+                       <textarea class="email-area" name="message" placeholder="How can I help?"></textarea>
+                       
+                   </div>
+                   <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       <button type="submit" class="btn btn-primary">Send</button>
+                       
+                   </div>
+                   </form>
+               </div>
+           </div>
+       </div>
+       
+       
+       
+       <!-- Modal Ends Here -->
         <header class="sticky-top">
             <nav class="navbar navbar-expand-xs navbar-dark bg-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hiddenNav" aria-controls="hiddenNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +66,8 @@
                         </li>
                     </ul>
                     <div class="sIcon-box">
-                       <a href="">
-                           <span class="fab fa-github"></span></a><a href=""><span class="fab fa-linkedin-in"></span></a><a href=""><span class="fas fa-at"></span></a>
+                        <a href="https://github.com/dormonde" target="_blank">
+                            <span class="fab fa-github"></span></a><a href=""><span style="display: none" class="fab fa-linkedin-in"></span></a><a href="" data-toggle="modal" data-target="#emailModal" ><span class="fas fa-at"></span></a>
                     </div>
                 </div>
             </nav>
@@ -66,11 +98,11 @@
                             <h5 class="card-title">Rock Paper Scissors Game</h5>
                             <p>Short Description</p>
                             <div class="card-icons">
-                                <a href="" target="_blank"><span class="fab fa-github"></span></a>
-                                <a href="" target="_blank"><span class="fas fa-eye"></span></a>
+                                <a href="https://github.com/dormonde/Ro-sham-bo" target="_blank"><span class="fab fa-github"></span></a>
+                                <a href="https://dormonde.github.io/Ro-sham-bo/" target="_blank"><span class="fas fa-eye"></span></a>
                                 <a href="" target="_blank"><span class="fas fa-toolbox"></span></a>
-                                
-                                
+
+
                             </div>
                         </div>
                     </div>
@@ -83,7 +115,7 @@
                                 <a href="" target="_blank"><span class="fab fa-github"></span></a>
                                 <a href="" target="_blank"><span class="fas fa-eye"></span></a>
                                 <a href="" target="_blank"><span class="fas fa-toolbox"></span></a>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -96,42 +128,11 @@
                                 <a href="" target="_blank"><span class="fab fa-github"></span></a>
                                 <a href="" target="_blank"><span class="fas fa-eye"></span></a>
                                 <a href="" target="_blank"><span class="fas fa-toolbox"></span></a>
-                               
+
                             </div>
                         </div>
                     </div>
-                    <!--
-                    <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/400/200/" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Placeholder</h5>
-                            <p>Short Description</p>
-                            <div class="card-icons">
-                                <span class="fab fa-github"></span><span class="fas fa-toolbox"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/400/200/" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Placeholder</h5>
-                            <p>Short Description</p>
-                            <div class="card-icons">
-                                <span class="fab fa-github"></span><span class="fas fa-toolbox"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/400/200/" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Placeholder</h5>
-                            <p>Short Description</p>
-                            <div class="card-icons">
-                                <span class="fab fa-github"></span><span class="fas fa-toolbox"></span>
-                            </div>
-                        </div>
-                    </div>
--->
+
                 </div>
                 <div class="wall tool-box">
                     <h5 id="toolbox" class="page-title">Tool Box</h5>
@@ -187,12 +188,12 @@
                     <div class="card-body">
                         <h2 class="card-title">David Ormonde</h2>
                         <div class="sIcon-box">
-                       <h4>See more at my Github</h4>
-                          <a href="">
-                           <span class="fab fa-github"></span></a><a href=""><span class="fab fa-linkedin-in"></span></a><a href=""><span class="fas fa-at"></span></a>
-                        <p>For phone contact please see my Resume</p>
+                            <h4>See more at my Github</h4>
+                            <a href="https://github.com/dormonde" target="_blank">
+                                <span class="fab fa-github"></span></a><a href=""><span style="display: none;" class="fab fa-linkedin-in"></span></a><a href="" data-toggle="modal" data-target="#emailModal" ><span class="fas fa-at"></span></a>
+                            <p>For phone contact please see my Resume</p>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
