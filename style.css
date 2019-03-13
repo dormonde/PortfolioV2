@@ -2,15 +2,43 @@
     padding: 0;
     margin: 0;
 }
+.btn-primary {
+    background-color:#1E88E5;
+    margin:10px 20px;
+}
 .container-fluid {
     padding: 0;
 }
+
 /*CSS for Nav Bar HERE */
 nav {
     width: 100%;
+    color: #F5F5F5;
+
+}
+nav a {
+    color:#f5f5f5;
+}
+.sIcon-box a:hover {
+    color:aqua;
+    transition: all 1s ease;
+}
+.navbar-nav {
+    border-top: 1px solid white;
     
-    
-    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:rgba(255,255,255,1);
+}
+.navbar-collapse .sIcon-box {
+    font-size: 32px;
+    color: #F5F5F5;
+    border-top: 1px solid white;
+
+}
+
+.navbar-collapse .sIcon-box span {
+    margin: 0 20px;
 }
 
 /*CSS for Nab Bar End */
@@ -21,33 +49,134 @@ nav {
     width: 100%;
     position: relative;
 }
+
 #home-img {
-    background: url("connectwork.png") ;
+    background: url("connectwork.png");
 }
 
 #home .card {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(224, 224, 224, 0.85);
     width: 80%;
-    max-width:50rem;
+    max-width: 50rem;
     margin: auto;
     position: absolute;
-    top:45%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /*CSS for Home Page End */
 
 /*CSS for Portfolio */
 .page-title {
     text-align: center;
-    padding-top:25px;
+    padding-top: 60px;
     font-size: 32px;
+    color: #E0E0E0;
+    border-bottom: 1px solid white;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#portfolio {
+    background: url("ep_naturalblack.png");
+}
+
+.content {
+    width: 85vw;
+    height: auto;
+    margin: auto;
+}
+
+.icon-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
     
+   
+}
+
+.icon {
+    color: #E0E0E0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.icon p {
+    color: #E0E0E0;
+    font-size: 1rem;
+}
+
+.card-columns {
+    background-color: darkgrey;
+    padding: 50px 10px 25px;
+}
+
+.card-columns .card {
+    background-color: #F5F5F5;
+}
+.card-icons span {
+    font-size:2rem;
+    margin:0 50px 0 0;
+
+}
+@media only screen and (min-width: 1200px) {
+   .icon {
+    color: #E0E0E0;
+    font-size: 4rem;
+}
+
+.icon p {
+    color: #E0E0E0;
+    font-size: 2rem;
+}
 }
 /*CSS for Portfolio End */
 
 /*CSS for Contact */
+#contact {
+    background: url("connectwork.png");
+    text-align: center;
 
+}
+#contact .card {
+    width:70%;
+    margin: auto;
+}
+#findMore {
+    list-style: none;
+    text-align: center;
+}
+.card-body .sIcon-box span {
+    font-size: 4rem;
+    color:#212121;
+    border-top: 1px solid white;
+    margin:0 10px;
+
+}
+.card-body .sIcon-box span:hover {
+    color:aqua;
+    transition: all 1s ease;
+
+}
+#findMore span {
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+#findMore p {
+    margin-top:25px;
+}
 /*CSS for Contact End */
 
 /*CSS for misc */
+body {
+    background-color: #607D8B;
+}
+
+footer {
+    text-align: center;
+}
