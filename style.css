@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
 }
+
 .btn-primary {
-    background-color:#1E88E5;
-    margin:10px 20px;
+    background-color: #1E88E5;
+    margin: 10px 20px;
 }
+
 .container-fluid {
     padding: 0;
 }
@@ -16,20 +18,25 @@ nav {
     color: #F5F5F5;
 
 }
+
 nav a {
-    color:#f5f5f5;
+    color: #f5f5f5;
 }
+
 .sIcon-box a:hover {
-    color:aqua;
+    color: aqua;
     transition: all 1s ease;
 }
+
 .navbar-nav {
     border-top: 1px solid white;
-    
+
 }
+
 .navbar-dark .navbar-nav .nav-link {
-    color:rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
 }
+
 .navbar-collapse .sIcon-box {
     font-size: 32px;
     color: #F5F5F5;
@@ -94,8 +101,8 @@ nav a {
     grid-template-columns: auto auto auto;
     text-align: center;
     margin-top: 25px;
-    
-   
+
+
 }
 
 .icon {
@@ -118,22 +125,25 @@ nav a {
 .card-columns .card {
     background-color: #F5F5F5;
 }
+
 .card-icons span {
-    font-size:2rem;
-    margin:0 50px 0 0;
-
-}
-@media only screen and (min-width: 1200px) {
-   .icon {
-    color: #E0E0E0;
-    font-size: 4rem;
-}
-
-.icon p {
-    color: #E0E0E0;
     font-size: 2rem;
+    margin: 0 50px 0 0;
+
 }
+
+@media only screen and (min-width: 1200px) {
+    .icon {
+        color: #E0E0E0;
+        font-size: 4rem;
+    }
+
+    .icon p {
+        color: #E0E0E0;
+        font-size: 2rem;
+    }
 }
+
 /*CSS for Portfolio End */
 
 /*CSS for Contact */
@@ -142,34 +152,52 @@ nav a {
     text-align: center;
 
 }
+
 #contact .card {
-    width:70%;
+    width: 70%;
     margin: auto;
 }
+
 #findMore {
     list-style: none;
     text-align: center;
 }
+
 .card-body .sIcon-box span {
     font-size: 4rem;
-    color:#212121;
+    color: #212121;
     border-top: 1px solid white;
-    margin:0 10px;
+    margin: 0 10px;
 
 }
-.card-body .sIcon-box span:hover {
+.card-icons span {
+    
+    color: #212121;
+    
+
+}
+.card-icons span:hover {
+    
     color:aqua;
     transition: all 1s ease;
 
 }
+
+.card-body .sIcon-box span:hover {
+    color: aqua;
+    transition: all 1s ease;
+
+}
+
 #findMore span {
     font-size: 3rem;
     margin-right: 20px;
 }
 
 #findMore p {
-    margin-top:25px;
+    margin-top: 25px;
 }
+
 /*CSS for Contact End */
 
 /*CSS for misc */
@@ -185,12 +213,18 @@ footer {
     display: grid;
     text-align: center;
     grid-template-columns: 100%;
-    
+
 }
+
 .email-form input {
-    width:80%;
+    width: 80%;
     margin-bottom: 10px;
 }
+
 .email-form textarea {
     height: 20vh;
+}
+
+.toolbox-list {
+    list-style: none;
 }
