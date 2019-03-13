@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Sail');
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+
 html { scroll-behavior: smooth;}
 * {
     padding: 0;
     margin: 0;
 }
-
+body {
+    background-color: #607D8B;
+}
 .btn-primary {
     background-color: #1E88E5;
     margin: 10px 20px;
@@ -72,7 +77,25 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+#home .card-text {
+    font-style: italic;
+    
+    
+}
+#home .card-title {
+    font-family: 'Spirax', cursive;
+    border-bottom: 1px solid black;
+    
+}
+#home .card-body .btn {
+     font-family: 'Spirax', cursive;
+        background-color:#343a40;
+}
+#home .card-body .btn:hover {
+         transition: all 0.8s ease;
+        background-color:#78909C;
+        color:black;
+}
 /*CSS for Home Page End */
 
 /*CSS for Portfolio */
@@ -85,6 +108,7 @@ nav a {
     width: 25%;
     margin: auto;
     margin-bottom: 25px;
+    font-family: 'Spirax', cursive;
 }
 
 #portfolio {
@@ -120,7 +144,7 @@ nav a {
 
 .card-columns {
     background-color: darkgrey;
-    padding: 50px 10px 25px;
+    padding: 80px 10px 50px;
     border-radius: 10px;
 }
 
@@ -159,7 +183,10 @@ nav a {
     width: 70%;
     margin: auto;
 }
-
+#contact .card-title {
+    font-family: 'Spirax', cursive;
+    font-weight: bold
+}
 #findMore {
     list-style: none;
     text-align: center;
@@ -203,14 +230,13 @@ nav a {
 /*CSS for Contact End */
 
 /*CSS for misc */
-body {
-    background-color: #607D8B;
-}
+
 
 footer {
     text-align: center;
 }
 
+/* Modal CSS */
 .email-form {
     display: grid;
     text-align: center;
