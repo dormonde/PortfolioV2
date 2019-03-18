@@ -140,21 +140,21 @@ nav a {
 .icon p {
     color: #E0E0E0;
     font-size: 1rem;
+    
 }
-
-.card-columns {
-    background-color: darkgrey;
-    padding: 80px 10px 50px;
-    border-radius: 10px;
+#portfolio .card-body p {
+    min-height: 13rem;
 }
-
-.card-columns .card {
-    background-color: #F5F5F5;
+#portfolio .card-icons {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+   
 }
-
 .card-icons span {
     font-size: 2rem;
     margin: 0 50px 0 0;
+    color: #212121;
+    
 
 }
 
@@ -199,12 +199,7 @@ nav a {
     margin: 0 10px;
 
 }
-.card-icons span {
-    
-    color: #212121;
-    
 
-}
 .card-icons span:hover {
     
     color:aqua;
